@@ -179,6 +179,7 @@ body form button:active{
 }
 
 .redessociais .container .sociais{
+    padding: 10px 0;
     width: 40%;
     border-left: 2px solid #e9c46a;
     border-radius: 10px 0 0 10px;
@@ -219,7 +220,7 @@ body form button:active{
 
 .redessociais .container .yt ul li{
     width: 40%;
-    background-color: #000;
+    background-color: #000; 
     border-radius: 5px;
 }
 
