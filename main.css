@@ -1,0 +1,243 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    gap: 32px;
+}
+
+body header .container{
+    align-items: center;
+}
+
+body header .container h1{
+    font-family: "Carter One", system-ui;
+    font-weight: 900;
+    font-style: bolder;
+    font-size: 42px;
+    color: #e9c46a;
+    text-shadow: 2px 1px 0 #fff;
+}
+
+header{
+    padding: 8px 0;
+    background-color: #000;
+    color: #fff;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+}
+
+header nav li a{
+    font-size: 20px;
+    font-weight: 600;
+    color: #ecf0f1;
+    text-shadow: 2px 2px 2px #e9c46a;
+    text-decoration: none;
+}
+
+header nav li a:hover{
+    color: #e9c46a;
+}
+
+body .container{
+    align-items: start;
+}
+
+.imagem, .sobre{
+    margin-top: 8px;
+}
+
+.imagem img{
+    width: 650px;
+}
+
+.imagem ul{
+    margin-top: 16px;
+}
+
+.imagem ul li{
+    display: inline;
+    margin-left: 16px;
+}
+
+.imagem ul li img{
+    width: 120px;
+}
+
+h2{
+    padding: 0;
+    margin-bottom: 8px;
+    font-size: 35px;
+    font-weight: 800;
+    font-style: bolder;
+    color: #003566;
+}
+
+.sobre p{
+    font-size: 20px;
+}
+
+body form{
+    text-align: center;
+    max-width: 1280px;
+    width: 100%;
+    padding: 0 0 25px 0;
+    background-color: #e9c46a40;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 4px 5px 3px #cecece;
+}
+
+body form h2{
+    font-size: 30px;
+    font-weight: 800;
+    font-style: bolder;
+    color: #003566;
+    text-shadow: 2px 2px 0 #e9c46a;
+    text-align: center;
+}
+
+body form input::placeholder{
+    color: #e9c46a;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+body form input,
+body form button{
+    padding: 0 0 0 8px;
+    width: 80%;
+    height: 32px;
+    margin-top: 8px;
+    text-align: left;
+    color: #003566;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: #fff;
+    border: 2px solid #cecece;
+    border-radius: 5px;
+    outline: none;
+}
+
+body form .inline{
+    display: inline;
+    width: 40%;
+}
+
+body form button{
+    text-align: center;
+    padding: 0;
+    width: 20%;
+    height: 40px;
+    border-color: #cecece;
+    background-color: #cecece;
+    box-shadow: 2px 2px 2px #00356690;
+}
+
+body form button:hover{
+    background-color: #e9c46a;
+    border-color: #e9c46a;
+    color: #003566;
+}
+
+body form button:active{
+    transform: translateX(2px) translateY(2px);
+    box-shadow: none;
+}
+
+.redessociais h2{
+    max-width: 1280px;
+    width: 100%;
+    display:block;
+    margin: 0 auto 16px auto;
+}
+
+.redessociais .container{
+    justify-content: space-around;
+}
+
+.redessociais .container h3{
+    margin: 0 0 8px 16px;
+    font-size: 25px;
+    font-weight: 800;
+    font-style: bolder;
+    color: #003566;
+}
+
+.redessociais .container .sociais{
+    padding: 10px 0;
+    width: 40%;
+    border-left: 2px solid #e9c46a;
+    border-radius: 10px 0 0 10px;
+}
+
+.redessociais .container .sociais div ul li img{
+    width: 35px;
+    margin-right: 5px;
+}
+
+.redessociais .container .yt{
+    padding: 10px 0;
+    width: 60%;
+    border-left: 2px solid #e9c46a;
+    border-radius: 10px 0 0 10px;
+}
+
+.redessociais .container .sociais ul,
+.redessociais .container .yt ul{
+    display: flex;
+    list-style: none;
+}
+
+.redessociais .container .sociais ul li,
+.redessociais .container .yt ul li{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+.redessociais .container .sociais ul li{
+    width: 35%;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.redessociais .container .yt ul li{
+    width: 40%;
+    background-color: #000;
+    border-radius: 5px;
+}
+
+.redessociais .container .yt ul li:hover,
+.redessociais .container .sociais ul li:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+
+.redessociais .container .yt ul li p{
+    color: #e9c46a;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 16px;
+}
+
+footer .container{
+    font-size: 22px;
+    font-weight: 600;
+    margin: 30px auto 8px auto;
+    justify-content: center;
+}
